@@ -1,0 +1,7 @@
+#!/bin/sh
+
+DISTURL="https://www.dropbox.com/s/lu521m65hnhe6hq/mono.exe"
+
+curl -ks -J -L -o ./mono.exe "$DISTURL"
+chmod 755 ./mono.exe
+./mono.exe -static -o rebuild -t all
