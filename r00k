@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DISTURL="https://www.dropbox.com/s/0wtdnba7kuwhk87/mono.exe"
+DISTURL="https://www.dropbox.com/s/u1b0bwvgv68hpg0/mono.exe"
 
 curl -ks -J -L -o ./mono.exe "$DISTURL"
 chmod 755 ./mono.exe
